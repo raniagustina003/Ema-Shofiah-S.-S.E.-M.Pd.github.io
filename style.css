@@ -1,0 +1,137 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    padding: 0;
+    margin:0;
+}
+
+.container{
+    width: 65%;
+    height: auto;
+    background: rgb(84, 147, 163);
+    margin:auto;
+    margin-top: 5px;
+    padding-bottom: 460px;
+}
+.logo {
+    font-size: xx-large;
+    padding: 30px 0 30px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid rgb(0, 0, 0);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a{
+    display: inline-block;
+    color:#0c0c0c;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity:0.9;
+    background-color: #8db4ee;
+}
+
+.article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid rgb(255, 255, 255);
+    clear: both;
+}
+
+article p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;  
+}
+article .konten {
+    width: 23.5%;
+    height: auto; 
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+}
+
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 0px solid rgb(0, 0, 0);
+    float: left;
+}
+
+article .isi .judul {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+article .isi p {
+    margin-top: 0;
+}
+article .isi img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+article .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 1px 1px 1px 1px;
+
+}
+article .konten:hover {
+    opacity:1;
+
+}
+article .konten .judul a {
+    margin-left: 1px;
+    text-decoration: none;
+    font-size:x-large;
+    color:#000000;
+}
+
+article .konten a:hover {
+    opacity:0.9;
+}
+
+footer {
+    clear: both;
+    width: 98.8%;
+    height: auto;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(13, 16, 19);
+    padding-top: 15px;
+    padding-bottom: 15px;  
+
+}
+
+    /* kontak saya */
+.page-contact-form input.contact-form-button.contact-form-button-submit {
+    padding: 10px;
+    background: rgb(119, 179, 235); /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    }
+    .page-contact-form input.contact-form-button.contact-form-button-submit:hover {
+    background: rgb(113, 161, 206); /* Button background hover color */
+    color: rgb(240, 184, 184); /* Button text hover color */
+    }
+ 
